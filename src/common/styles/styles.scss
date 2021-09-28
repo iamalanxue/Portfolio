@@ -1,0 +1,38 @@
+@import './variables.scss'; 
+
+.landing-page {
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url($background);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	.introduction {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		justify-content: center;
+		padding: 60px;
+		border: 6px solid $white;
+		.MuiTypography-root {
+			color: $white;  
+		}
+		.MuiTypography-caption {
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: $caption;
+
+		}
+		.caption {
+			.MuiTypography-body1 {
+				font-size: 72px;
+				font-weight: 400px;
+				font-family: $title;
+			}
+		}
+	}
+} 
