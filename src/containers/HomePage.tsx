@@ -1,21 +1,14 @@
-import React, { FC } from 'react'; 
 import { makeStyles } from '@mui/styles';
-import { CssBaseline, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 const useStyles = makeStyles({
 })
-type Props = {
 
-}
-
-const HomePage: FC<Props> = ({
-
-}) => {
+const HomePage = () => {
 	const classes = useStyles(); 
 
 	return(
 		<div className="landing-page">
-			<CssBaseline />
 			<div className="introduction">
 				<Typography variant="caption">Green is the Prime Color of the World</Typography>
 				<div className="caption">
