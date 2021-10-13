@@ -1,11 +1,6 @@
-import { makeStyles } from '@mui/styles';
 import { Typography } from '@mui/material';
 
-const useStyles = makeStyles({
-})
-
 const HomePage = () => {
-	const classes = useStyles(); 
 
 	return(
 		<div className="landing-page">
