@@ -1,18 +1,14 @@
 import { Typography, Grid, Link } from '@mui/material'; 
 import IEEE from '../common/img/ieee.jpg';
 import Relayr from '../common/img/relayr.jpg'; 
-import Item from '../components/Item'; 
-
+import Header from '../components/Header'; 
 
 const Experience = () => {
-
+  const title = "Current Projects"; 
+  const caption = "My journey to transition from an Engineer to a Software Developer 😄. More to come!";
   return (
     <div className="experience">
-      <Typography variant="h1">
-        Current Projects 
-      </Typography>
-      <div className="border"></div>
-      <Typography variant="caption">My journey to transition from an Engineer to a Software Developer 😄. More to come!</Typography>
+      <Header title={title} caption={caption} />
       <div id="experience-container">
       <Grid container spacing={3} wrap="wrap">
         <Grid item xs={6} md={4}>

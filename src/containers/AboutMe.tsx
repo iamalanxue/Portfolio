@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <div className="img-container">
-        <img src={ME} alt="Profile Image" />
+        <img src={ME} alt="Profile" />
       </div>
       <div className="text">
         <Typography variant="h2">the sky, the mountain, the tree...</Typography>
